@@ -1,0 +1,5 @@
+if [ -z $argv ]; then
+    open -a "Finder" "$argv"
+else
+	open -a "Finder" $(pwd)
+fi
